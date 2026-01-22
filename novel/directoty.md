@@ -1,7 +1,7 @@
 ## 目录
  - [第一章：开始前的夜晚](chapter/chapter-1.md)
- - [第二章：](chapter/chapter-2.md)
- - [第三章：](chapter/chapter-3.md)
+ - [第二章：方块世界的初鸣](chapter/chapter-2.md)
+ - [第三章：升级时的忐忑](chapter/chapter-3.md)
  - [第四章：](chapter/chapter-4.md)
  - [第五章：](chapter/chapter-5.md)
  - [第六章：](chapter/chapter-6.md)
