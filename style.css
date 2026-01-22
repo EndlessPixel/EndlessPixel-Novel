@@ -11,6 +11,9 @@ body {
     color: #333;
     line-height: 1.8;
     padding-bottom: 80px;
+    white-space: normal;
+    /* 恢复默认换行行为 */
+    word-wrap: break-word;
 }
 
 /* 头部导航 */
@@ -50,7 +53,7 @@ header p {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     position: sticky;
     top: 20px;
-    max-height: 80vh;
+    max-height: 60vh;
     overflow-y: auto;
 }
 
