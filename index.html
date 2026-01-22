@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>无尽像素服生记 - 方块里的时光</title>
+    <!-- 引入MD渲染库 -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- 引入代码高亮库 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js/styles/atom-one-light.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/highlight.js/lib/highlight.min.js"></script>
+    <!-- 基础样式 -->
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <h1>无尽像素服生记</h1>
+        <p>一群普通人在方块里，认真活过的一段日子</p>
+    </header>
+
+    <!-- 主体容器 -->
+    <div class="container">
+        <!-- 侧边目录 -->
+        <aside class="sidebar">
+            <h2>目录</h2>
+            <ul id="directory-list">
+                <!-- 目录内容会通过JS加载 -->
+                <li><a href="javascript:loadMD('novel/title.md')" class="active">前言</a></li>
+                <li><a href="javascript:loadMD('novel/directory.md')">完整目录</a></li>
+                <li>
+                    <hr style="border: none; border-top: 1px solid #eee; margin: 10px 0;">
+                </li>
+                <li><a href="javascript:loadMD('./novel/chapter/chapter-1.md')">第1章</a></li>
+                <li><a href="javascript:loadMD('./novel/chapter/chapter-2.md')">第2章</a></li>
+                <li><a href="javascript:loadMD('./novel/chapter/chapter-3.md')">第3章</a></li>
+                <li><a href="javascript:loadMD('./novel/chapter/chapter-4.md')">第4章</a></li>
+                <li><a href="javascript:loadMD('./novel/chapter/chapter-5.md')">第5章</a></li>
+                <li><a href="javascript:loadMD('./novel/chapter/chapter-6.md')">第6章</a></li>
+                <li><a href="javascript:loadMD('./novel/chapter/chapter-7.md')">第7章</a></li>
+                <li><a href="javascript:loadMD('./novel/chapter/chapter-8.md')">第8章</a></li>
+                <li><a href="javascript:loadMD('./novel/chapter/chapter-9.md')">第9章</a></li>
+                <li><a href="javascript:loadMD('./novel/chapter/chapter-10.md')">第10章</a></li>
+                <li><a href="javascript:loadMD('./novel/chapter/chapter-11.md')">第11章</a></li>
+                <li><a href="javascript:loadMD('./novel/chapter/chapter-12.md')">第12章</a></li>
+                <li><a href="javascript:loadMD('./novel/chapter/chapter-13.md')">第13章</a></li>
+                <li><a href="javascript:loadMD('./novel/chapter/chapter-14.md')">第14章</a></li>
+                <li><a href="javascript:loadMD('./novel/chapter/chapter-15.md')">第15章</a></li>
+            </ul>
+        </aside>
+
+        <!-- 主内容区 -->
+        <main class="content" id="md-content">
+            <!-- MD内容会通过JS渲染到这里 -->
+        </main>
+    </div>
+
+    <!-- 章节切换按钮 -->
+    <div class="chapter-nav">
+        <button id="prev-chapter" disabled>上一章</button>
+        <button id="next-chapter">下一章</button>
+    </div>
+
+    <!-- 返回顶部按钮 -->
+    <div class="back-to-top" id="back-to-top" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+        ↑
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
