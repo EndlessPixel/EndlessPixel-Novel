@@ -5,7 +5,7 @@
  - [第四章：取舍与新生](chapter/chapter-4.md)
  - [第五章：迭代与沉淀](chapter/chapter-5.md)
  - [第六章：迭代与焕新](chapter/chapter-6.md)
- - [第七章：](chapter/chapter-7.md)
+ - [第七章：乌龙与新岁](chapter/chapter-7.md)
  - [第八章：](chapter/chapter-8.md)
  - [第九章：](chapter/chapter-9.md)
  - [第十章：](chapter/chapter-10.md)
