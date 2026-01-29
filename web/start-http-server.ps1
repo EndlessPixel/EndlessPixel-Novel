@@ -1,6 +1,7 @@
 #Requires -Version 5.1
 $ErrorActionPreference = "Stop"
 
+Set-Location ..
 function Write-Info  { param($m) Write-Host "[INFO]  $m" -ForegroundColor Cyan   }
 function Write-Error { param($m) Write-Host "[ERROR] $m" -ForegroundColor Red    }
 function Write-Tip   { param($m) Write-Host "[TIP]   $m" -ForegroundColor Yellow }

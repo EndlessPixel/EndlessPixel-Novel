@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-
+cd ..
 # ---------- helpers ----------
 log_info ()  { printf '\033[36m[INFO]  %s\033[0m\n' "$*"; }
 log_error () { printf '\033[31m[ERROR] %s\033[0m\n' "$*" >&2; }

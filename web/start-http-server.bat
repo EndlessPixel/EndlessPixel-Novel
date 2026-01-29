@@ -1,7 +1,7 @@
 @echo off
 setlocal EnableDelayedExpansion
 chcp 65001 >nul
-
+cd ..
 cls
 
 :: ---------- 0. Banner ----------
